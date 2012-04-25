@@ -1,6 +1,6 @@
 ﻿<Properties GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pong\Main.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" ActiveRuntime="Mono 2.10.8" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Pong.Test.Acceptance\HitTheBall.feature" Line="5" Column="1" />
       <File FileName="Pong.Test.Acceptance\HitTheBall.feature.cs" Line="41" Column="29" />
@@ -10,9 +10,11 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Option id="ShowVersionControlOverlays" value="True" />
           <Option id="ShowAllFiles" value="True" />
-          <Node name="Pong" expanded="True" />
+          <Option id="ShowVersionControlOverlays" value="True" />
+          <Node name="Pong" expanded="True">
+            <Node name="Pong.pidb" selected="True" />
+          </Node>
           <Node name="Pong.Test.Acceptance" expanded="True" />
         </State>
       </Pad>
@@ -23,7 +25,19 @@
         <State />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True" selected="True" />
+        <State expanded="True">
+          <Node name="Pong.Test.Acceptance" expanded="True" selected="True">
+            <Option id="ShowTestTime" value="True" />
+            <Option id="ShowTestCounters" value="True" />
+            <Node name="Pong" expanded="True">
+              <Node name="Test" expanded="True">
+                <Node name="Acceptance" expanded="True">
+                  <Node name="HitTheBallFeature" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
