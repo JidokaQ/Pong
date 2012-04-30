@@ -42,12 +42,15 @@
   <ItemGroup>
     <Compile Include="HitTheBall.feature.cs" />
     <Compile Include="HitTheBallSteps.cs" />
+    <Compile Include="SetupNumberOfPlayers.feature.cs" />
+    <Compile Include="SetupNumberOfPlayers.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="HitTheBall.feature">
       <Generator>SpecFlow</Generator>
     </None>
+    <None Include="SetupNumberOfPlayers.feature" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Pong\Pong.csproj">
