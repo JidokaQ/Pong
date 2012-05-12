@@ -1,4 +1,4 @@
-Feature:  Hit The Ball
+Feature:  Hit The Ball hard
 	In order to play the Pong game
 	As a player
 	I want my paddle to return the ball

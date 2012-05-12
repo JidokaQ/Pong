@@ -1,21 +1,19 @@
 ﻿<Properties GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" ActiveRuntime="Mono 2.10.8" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pong.Test.Acceptance/HitTheBall.feature">
     <Files>
-      <File FileName="Pong.Test.Acceptance\HitTheBall.feature" Line="5" Column="1" />
-      <File FileName="Pong.Test.Acceptance\HitTheBall.feature.cs" Line="41" Column="29" />
-      <File FileName="Pong.Test.Acceptance\HitTheBallSteps.cs" Line="4" Column="23" />
-      <File FileName="Pong\Main.cs" Line="9" Column="44" />
+      <File FileName="Pong.Test.Acceptance/HitTheBall.feature" Line="1" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Option id="ShowAllFiles" value="True" />
           <Option id="ShowVersionControlOverlays" value="True" />
-          <Node name="Pong" expanded="True">
-            <Node name="Pong.pidb" selected="True" />
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="Pong" expanded="True" />
+          <Node name="Pong.Test.Acceptance" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="HitTheBall.feature" selected="True" />
           </Node>
-          <Node name="Pong.Test.Acceptance" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
@@ -26,16 +24,9 @@
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
         <State expanded="True">
-          <Node name="Pong.Test.Acceptance" expanded="True" selected="True">
-            <Option id="ShowTestTime" value="True" />
+          <Node name="Pong.Test.Acceptance" selected="True">
             <Option id="ShowTestCounters" value="True" />
-            <Node name="Pong" expanded="True">
-              <Node name="Test" expanded="True">
-                <Node name="Acceptance" expanded="True">
-                  <Node name="HitTheBallFeature" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
+            <Option id="ShowTestTime" value="True" />
           </Node>
         </State>
       </Pad>
