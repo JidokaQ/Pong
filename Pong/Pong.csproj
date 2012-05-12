@@ -34,7 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="TechTalk.SpecFlow">
-      <HintPath>..\..\..\..\..\..\Program Files %28x86%29\TechTalk\SpecFlow\TechTalk.SpecFlow.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\usr\lib\mono\gac\TechTalk.SpecFlow\1.8.1.0__0778194805d6db41\TechTalk.SpecFlow.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
