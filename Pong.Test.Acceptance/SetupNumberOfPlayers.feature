@@ -1,14 +1,13 @@
 Feature: Setup number of players
 	In order to play multiplayer game
-	As a main player
-	I want to be able to choose in what mode to play
+	As a game admin
+	I want to be able to setup number of players allowed in a game server
 	
-@mytag
-Scenario: Register a new game
-	Given there is a game in init mode
-	And you are not in another game
-	When user choose 2 player
-	Then 2 paddles should be in the game
+
+Scenario: Setup number of allowed players
+	Given game server is started
+	When game admin selects 1000 players
+	Then 1000 players should be allowed entering a game
 
 
 
