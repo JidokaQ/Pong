@@ -46,6 +46,7 @@
     <Compile Include="HitTheBallSteps.cs" />
     <Compile Include="SetupNumberOfPlayers.feature.cs" />
     <Compile Include="SetupNumberOfPlayers.cs" />
+    <Compile Include="SetupNumberOfPlayersSteps.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
