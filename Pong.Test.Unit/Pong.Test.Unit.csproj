@@ -32,10 +32,10 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="nunit.core">
-      <HintPath>..\..\..\..\..\..\..\..\usr\lib\mono\gac\nunit.core\2.5.10.0__96d09a1eb7f44a77\nunit.core.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\usr\lib\mono\gac\nunit.core\2.5.10.0__96d09a1eb7f44a77\nunit.core.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>..\..\..\..\..\..\..\..\usr\lib\mono\gac\nunit.framework\2.5.10.0__96d09a1eb7f44a77\nunit.framework.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\usr\lib\mono\gac\nunit.framework\2.5.10.0__96d09a1eb7f44a77\nunit.framework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

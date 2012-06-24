@@ -10,6 +10,17 @@
       <Time />
       <Message>Child test failed</Message>
     </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-06-24T21:13:17</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0,04ms</Message>
+    </UnitTestResult>
   </Results>
   <Tests>
     <TestRecord Name="Pong">
@@ -22,6 +33,17 @@
           <TotalIgnored>0</TotalIgnored>
           <Time />
           <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-06-24T21:13:17</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0,04ms</Message>
         </UnitTestResult>
       </Results>
       <Tests>
@@ -36,6 +58,17 @@
               <Time />
               <Message>Child test failed</Message>
             </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-06-24T21:13:17</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0,03ms</Message>
+            </UnitTestResult>
           </Results>
           <Tests>
             <TestRecord Name="Unit">
@@ -49,6 +82,17 @@
                   <Time />
                   <Message>Child test failed</Message>
                 </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-06-24T21:13:17</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>2</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0,03ms</Message>
+                </UnitTestResult>
               </Results>
               <Tests>
                 <TestRecord Name="GamesTest">
@@ -61,6 +105,17 @@
                       <TotalIgnored>0</TotalIgnored>
                       <Time />
                       <Message>Child test failed</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2012-06-24T21:13:17</TestDate>
+                      <Status>Success</Status>
+                      <TotalFailures>0</TotalFailures>
+                      <TotalSuccess>2</TotalSuccess>
+                      <TotalIgnored>0</TotalIgnored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0,03ms</Message>
                     </UnitTestResult>
                   </Results>
                   <Tests>
@@ -136,7 +191,21 @@ Execution time: 0,01ms</Message>
                           <ConsoleOutput />
                           <ConsoleError />
                         </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2012-06-24T21:13:17</TestDate>
+                          <Status>Success</Status>
+                          <TotalFailures>0</TotalFailures>
+                          <TotalSuccess>1</TotalSuccess>
+                          <TotalIgnored>0</TotalIgnored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0,01ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
                       </Results>
+                      <Tests />
                     </TestRecord>
                   </Tests>
                 </TestRecord>
