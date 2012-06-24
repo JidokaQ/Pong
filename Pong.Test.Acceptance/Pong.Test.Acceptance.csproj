@@ -10,6 +10,7 @@
     <RootNamespace>Pong.Test.Acceptance</RootNamespace>
     <AssemblyName>Pong.Test.Acceptance</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <newfilesearch>OnLoadAutoInsert</newfilesearch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,10 +43,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HitTheBall.feature.cs" />
-    <Compile Include="HitTheBallSteps.cs" />
     <Compile Include="SetupNumberOfPlayers.feature.cs" />
     <Compile Include="SetupNumberOfPlayersSteps.cs" />
+    <Compile Include="HitTheBall.feature.cs" />
+    <Compile Include="HitTheBallSteps.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -53,6 +54,11 @@
       <Generator>SpecFlow</Generator>
     </None>
     <None Include="SetupNumberOfPlayers.feature" />
+    <None Include="test-results\Pong.Test.Acceptance.csproj-Debug-2012-05-13.xml" />
+    <None Include="test-results\Pong.Test.Acceptance.csproj-Debug-2012-05-14.xml" />
+    <None Include="test-results\Pong.Test.Acceptance.csproj-Debug-2012-06-23.xml" />
+    <None Include="test-results\Pong.Test.Acceptance.csproj-Debug-2012-06-24.xml" />
+    <None Include="test-results\Pong.Test.Acceptance.csproj.test-cache" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Pong\Pong.csproj">

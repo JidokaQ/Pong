@@ -1,6 +1,7 @@
 using System;
-
 using TechTalk.SpecFlow;
+using Pong.Server;
+using NUnit.Framework;
 
 namespace Pong.Test.Acceptance
 {
@@ -8,12 +9,15 @@ namespace Pong.Test.Acceptance
     public class SetupNumberOfPlayersSteps
 	{
 		
-       [Given(@"there is a game server started")]
-        public void GivenThereIsAGameServerStarted()
-        {
-            ScenarioContext.Current.Pending();
-        }
+		GameServer gameServer;
 		
+		[Given(@"game server is started")]
+        public void GivenGameServerIsStarted()
+        {
+			gameServer = new GameServer();
+            Assert.AreEqual(true, gameServer.IsStarted);
+        }
+				
       [When(@"game admin selects 1000 players")]
         public void WhenGameAdminSelects1000Players()
         {

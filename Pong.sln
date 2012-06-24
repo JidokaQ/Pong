@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong", "Pong\Pong.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong.Test.Acceptance", "Pong.Test.Acceptance\Pong.Test.Acceptance.csproj", "{FBC991AF-D2DD-4D52-A4CA-3E6F66C9B7DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong.Test.Unit", "Pong.Test.Unit\Pong.Test.Unit.csproj", "{7E8410D4-E551-4BF2-A02F-7A81A69FAB71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -12,6 +14,12 @@ Global
 		Default|Any CPU = Default|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E8410D4-E551-4BF2-A02F-7A81A69FAB71}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7E8410D4-E551-4BF2-A02F-7A81A69FAB71}.Debug|x86.Build.0 = Debug|Any CPU
+		{7E8410D4-E551-4BF2-A02F-7A81A69FAB71}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8410D4-E551-4BF2-A02F-7A81A69FAB71}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{7E8410D4-E551-4BF2-A02F-7A81A69FAB71}.Release|x86.ActiveCfg = Release|Any CPU
+		{7E8410D4-E551-4BF2-A02F-7A81A69FAB71}.Release|x86.Build.0 = Release|Any CPU
 		{BA72F6F8-FE7F-40AC-AE03-96F005810501}.Debug|x86.ActiveCfg = Debug|x86
 		{BA72F6F8-FE7F-40AC-AE03-96F005810501}.Debug|x86.Build.0 = Debug|x86
 		{BA72F6F8-FE7F-40AC-AE03-96F005810501}.Release|x86.ActiveCfg = Release|x86

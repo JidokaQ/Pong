@@ -1,35 +1,63 @@
 using System;
-
+using Pong.Server;
 using TechTalk.SpecFlow;
-using NUnit.Framework;
 
 namespace Pong.Test.Acceptance
 {
 	[Binding]
     public class HitTheBallSteps
-    {
-        private Pong.PongGame pongGame;
-
-        [Given(@"paddle (.*) touches the ball")]
-        public void GivenPaddleXTouchesTheBall(int paddle)
+	{
+		
+		Ball ball;
+		Game game;
+		Player player;
+		
+      	[Given(@"player is participating in a game")]
+        public void GivenPlayerIsParticipatingInAGame()
         {
-            pongGame = new PongGame();
-            Assert.AreEqual(true, pongGame.CheckPaddleBallCollision(paddle));
-   
+            game = new Game();
+			player = new Player();
+			player.Name = "Bertil";
+			player.Id = 1;
+			
+			game.RegisterPlayer(player);
         }
-
-        [Then(@"the ball should be bounced at (.*) degree")]
-        public void ThenTheBallShouldBeBouncedAt135Degree(int angle)
+		
+		[Given(@"ball is in motion with a speed and a direction")]
+        public void GivenBallIsInMotionWithASpeedAndADirection()
         {
-            Assert.AreEqual(angle, pongGame.GetBouncedAngle());
+            ScenarioContext.Current.Pending();
         }
-
-        [When(@"the ball hits with (.*) degree angle")]
-        public void WhenTheBallHitsPaddle1With45Degree(int angle)
+		
+		[Given(@"paddle <1> touches the ball")]
+        public void GivenPaddle1TouchesTheBall()
         {
-            pongGame.IncommingAngle = angle;
-            Assert.AreEqual(angle, pongGame.IncommingAngle);
+            ScenarioContext.Current.Pending();
         }
-    }
+		
+		[When(@"the ball hits with <45> degree angle")]
+        public void WhenTheBallHitsWith45DegreeAngle()
+        {
+            ScenarioContext.Current.Pending();
+        }
+		
+		[Then(@"the ball should be bounced at 135 degree")]
+        public void ThenTheBallShouldBeBouncedAt135Degree()
+        {
+            ScenarioContext.Current.Pending();
+        }
+		
+		[When(@"the ball hits with <50> degree angle")]
+        public void WhenTheBallHitsWith50DegreeAngle()
+        {
+            ScenarioContext.Current.Pending();
+        }
+		
+		[Then(@"the ball should be bounced at <130> degree")]
+        public void ThenTheBallShouldBeBouncedAt130Degree()
+        {
+            ScenarioContext.Current.Pending();
+        }
+	}
 }
 		

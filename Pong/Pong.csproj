@@ -41,6 +41,13 @@
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="PongGame.cs" />
+    <Compile Include="Server\GameServer.cs" />
+    <Compile Include="Server\Ball.cs" />
+    <Compile Include="Server\Player.cs" />
+    <Compile Include="Server\Game.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Server\" />
+  </ItemGroup>
 </Project>

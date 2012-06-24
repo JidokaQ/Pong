@@ -1,34 +1,33 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pong.Test.Acceptance/HitTheBall.feature">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GameTest.cs">
     <Files>
-      <File FileName="Pong.Test.Acceptance/HitTheBall.feature" Line="1" Column="28" />
+      <File FileName="Pong.Test.Acceptance/HitTheBall.feature" Line="11" Column="43" />
+      <File FileName="Pong.Test.Acceptance/HitTheBallSteps.cs" Line="1" Column="1" />
+      <File FileName="Pong.Test.Acceptance/SetupNumberOfPlayers.feature" Line="1" Column="1" />
+      <File FileName="Pong.Test.Acceptance/SetupNumberOfPlayersSteps.cs" Line="1" Column="1" />
+      <File FileName="Pong/Server/Game.cs" Line="1" Column="1" />
+      <File FileName="GameTest.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Option id="ShowVersionControlOverlays" value="True" />
           <Option id="ShowAllFiles" value="True" />
-          <Node name="Pong" expanded="True" />
-          <Node name="Pong.Test.Acceptance" expanded="True">
-            <Node name="References" expanded="True" />
-            <Node name="HitTheBall.feature" selected="True" />
-          </Node>
+          <Node name="Pong.Test.Unit" expanded="True" selected="True" />
+          <Node name="Pong.Test.Acceptance" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
-        <State expanded="True" selected="True" />
+        <State expanded="True">
+          <Node name="Pong.Test.Acceptance" expanded="True" selected="True" />
+        </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True">
-          <Node name="Pong.Test.Acceptance" selected="True">
-            <Option id="ShowTestCounters" value="True" />
-            <Option id="ShowTestTime" value="True" />
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
