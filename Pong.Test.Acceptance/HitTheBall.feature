@@ -3,6 +3,7 @@ Feature:  Hit The Ball
 	As a player
 	I want my paddle to return the ball
 
+@myTag
 Scenario: 45 degree hit
 	Given game server is started
 	And player is participating in a game
